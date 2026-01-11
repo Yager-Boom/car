@@ -1,24 +1,45 @@
-# macOS
-.DS_Store
-.AppleDouble
-.LSOverride
+# Laravel Files
+/.phpunit.cache
+/node_modules
+/public/build
+/public/hot
+/public/storage
+/storage/*.key
+/storage/pail
+/vendor
+.phpactor.json
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+auth.json
 
-# Windows
-Thumbs.db
-ehthumbs.db
-Desktop.ini
-
-# IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-*~
+# Environment
+.env
+.env.backup
+.env.production
+.env.local
+.env.*.local
 
 # Logs
+npm-debug.log
+yarn-error.log
 *.log
-npm-debug.log*
 
-# Temporary files
-*.tmp
-*.temp
+# IDE
+/.fleet
+/.idea
+/.nova
+/.vscode
+/.zed
+.DS_Store
+Thumbs.db
+
+# Uploaded Files
+/public/images/about/*
+!/public/images/about/.gitkeep
+/public/images/articles/*
+!/public/images/articles/.gitkeep
+/public/images/products/*
+!/public/images/products/.gitkeep
+/public/images/sliders/*
+!/public/images/sliders/.gitkeep
