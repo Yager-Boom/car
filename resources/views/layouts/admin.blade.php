@@ -60,6 +60,11 @@
                                 <i class="bi bi-people"></i> 用戶管理
                             </a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ route('admin.performance.index') }}">
+                                <i class="bi bi-graph-up"></i> 績效管理
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </nav>

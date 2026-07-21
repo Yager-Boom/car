@@ -17,6 +17,7 @@ class DatabaseSeeder extends Seeder
             SliderSeeder::class,
             ArticleSeeder::class,
             AboutSeeder::class,
+            StudentPerformanceSeeder::class,
         ]);
     }
 }
